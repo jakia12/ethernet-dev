@@ -28,33 +28,7 @@ export default function TabLayout() {
   };
 
   return (
-    // <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4 ">
-    //   <div className="flex flex-col items-start ">
-    //     <TopBtn />
-    //     <div className="flex gap-2 bg-[#171717]  rounded-[12px] shadow border border-[#383838] sticky top-0 z-10">
-    //       {tabs.map((tab) => (
-    //         <button
-    //           key={tab}
-    //           onClick={() => setActiveTab(tab)}
-    //           className={`text-sm  transition-colors  font-[400] text-[17px] px-6 rounded-[12px]
-    //           ${
-    //             activeTab === tab
-    //               ? "bg-[#100F0F] text-[#00FFB2]  border border-[#383838] py-[9px] w-[110px] "
-    //               : " text-[#fff] hover:text-white  "
-    //           }`}
-    //         >
-    //           {tab}
-    //         </button>
-    //       ))}
-    //     </div>
-
-    //     <div className="mt-10 w-full lg:w-[610px] h-[500px]  ">
-    //       {renderContent()}
-    //     </div>
-    //   </div>
-    // </div>
-
-    <div className=" bg-black text-white flex flex-col items-center justify-center p-4">
+    <div className=" bg-black text-white flex flex-col items-center justify-center p-4 2xl:h-[80vh]">
       <div className="flex flex-col items-start w-full max-w-2xl">
         <TopBtn />
 
