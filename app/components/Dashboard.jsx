@@ -16,7 +16,7 @@ export default function Dashboard() {
           <div>
             <div className="flex justify-between">
               <p className="text-[13px] text-[#fff]">Wallet Balance</p>
-              <div className="flex justify-between items-center gap-2">
+              <div className="flex justify-between items-center gap-2 cursor-pointer">
                 <span className="text-[11px] text-[#969696]">
                   7B4fY...j62mZ
                 </span>

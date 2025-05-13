@@ -48,13 +48,13 @@ export default function TabLayout() {
     //       ))}
     //     </div>
 
-    //     <div className="mt-10 w-full lg:w-[610px] h-[700px]  ">
+    //     <div className="mt-10 w-full lg:w-[610px] h-[500px]  ">
     //       {renderContent()}
     //     </div>
     //   </div>
     // </div>
 
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4">
+    <div className=" bg-black text-white flex flex-col items-center justify-center p-4">
       <div className="flex flex-col items-start w-full max-w-2xl">
         <TopBtn />
 
@@ -64,7 +64,7 @@ export default function TabLayout() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`text-sm transition-colors font-[400] text-[13px] lg:text-[17px] px-6 rounded-[12px]
+              className={`text-sm cursor-pointer transition-colors font-[400] text-[13px] px-[19px] lg:text-[17px] lg:px-6 rounded-[12px]
                 ${
                   activeTab === tab
                     ? "bg-[#100F0F] text-[#00FFB2] border border-[#383838] py-[9px] lg:w-[110px]"
@@ -77,7 +77,7 @@ export default function TabLayout() {
         </div>
 
         {/* Content Section with Fixed Height */}
-        <div className="mt-[22px] w-full lg:w-[630px] lg:h-[700px] h-auto  ">
+        <div className="mt-[22px] w-full lg:w-[630px]  lg:h-[700px] h-auto">
           {renderContent()}
         </div>
       </div>

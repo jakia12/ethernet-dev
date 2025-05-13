@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ibmPlexMono.className}>
-      <body className="bg-[#000]">
+      <body className="bg-[#000] h-[600px]">
         <Header />
         {children}
         <Footer />
