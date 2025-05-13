@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <div className="pl-[40px] pt-[40px]">
+    <div className="lg:pl-[40px] lg:pt-[40px] pl-[20px] pt-[20px]">
       <Link href="/" className="text-[#00FFB2] text-[25px]">
         ethernet.dev
       </Link>

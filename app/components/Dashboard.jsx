@@ -10,7 +10,7 @@ export default function Dashboard() {
       </p>
 
       {/* Boxes Container */}
-      <div className="grid md:grid-cols-2 gap-[13px] w-full  bg-[#171717] p-[12px] border border-[#383838] rounded-[12px]">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-[13px] w-full  bg-[#171717] p-[12px] border border-[#383838] rounded-[12px]">
         {/* Wallet Balance Box */}
         <div className="bg-[#202020] border border-[#383838] rounded-[12px] p-4 flex flex-col justify-between ">
           <div>
@@ -63,7 +63,7 @@ export default function Dashboard() {
         </div>
 
         {/* Launch Prompt Box */}
-        <div className="col-span-2 bg-[#202020] border border-[#383838] rounded-[12px] px-4 py-7">
+        <div className="col-span-1 lg:col-span-2 bg-[#202020] border border-[#383838] rounded-[12px] px-4 py-7">
           <p className="text-[15px] text-[#fff]">
             <span className="text-[#00FFB2]"> Deploy successful tokens</span> on
             our

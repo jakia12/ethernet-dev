@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="pb-[40px] pl-[40px]">
+    <div className="lg:pb-[40px] lg:pl-[40px] pb-[20px] pl-[20px]">
       <p className="text-[14px] text-white">
         Ethernet
         <span className="text-[#00FFB2]"> ALPHA </span>

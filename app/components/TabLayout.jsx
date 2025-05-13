@@ -64,11 +64,11 @@ export default function TabLayout() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`text-sm transition-colors font-[400] text-[17px] px-6 rounded-[12px]
+              className={`text-sm transition-colors font-[400] text-[13px] lg:text-[17px] px-6 rounded-[12px]
                 ${
                   activeTab === tab
-                    ? "bg-[#100F0F] text-[#00FFB2] border border-[#383838] py-[9px] w-[110px]"
-                    : "text-[#fff] hover:text-white py-[9px] w-[110px]"
+                    ? "bg-[#100F0F] text-[#00FFB2] border border-[#383838] py-[9px] lg:w-[110px]"
+                    : "text-[#fff] hover:text-white py-[9px] lg:w-[110px]"
                 }`}
             >
               {tab}
@@ -77,7 +77,7 @@ export default function TabLayout() {
         </div>
 
         {/* Content Section with Fixed Height */}
-        <div className="mt-10 w-full lg:w-[630px] lg:h-[700px] h-auto  p-4">
+        <div className="mt-[22px] w-full lg:w-[630px] lg:h-[700px] h-auto  ">
           {renderContent()}
         </div>
       </div>

@@ -14,71 +14,71 @@ const Launch = () => {
           <div className="w-full md:w-1/2  flex flex-col gap-4">
             <div>
               <label className="block mb-1 text-white text-xs">Name</label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">Symbol</label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
                 Total Supply
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-[#00FFB2] text-xs">
                 Initial LP
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
 
             <div>
               <label className="block mb-1 text-white text-xs">
                 Buy Tax (0–40%)
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
                 Sell Tax (0–40%)
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
           </div>
 
           {/* Right Column */}
-          <div className="w-full md:w-1/2  flex flex-col gap-4">
+          <div className="w-full md:w-1/2  flex flex-col gap-4 mt-4 lg:mt-0">
             <div>
               <label className="block mb-1 text-white text-xs">
                 Telegram Link{" "}
                 <span className="text-[#ffffff] text-[11px]">(optional)</span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
                 Twitter Link{" "}
                 <span className="text-[#ffffff] text-[11px]">(optional)</span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
                 Website Link{" "}
                 <span className="text-[#ffffff] text-[11px]">(optional)</span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div className="opacity-0 hidden">
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div className="opacity-0 ">
               <label className="  text-white text-xs">
                 Marketing Wallet{" "}
                 <span className="text-[#ffffff]">(where tax is collected)</span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white  rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white  rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
@@ -87,7 +87,7 @@ const Launch = () => {
                   (where tax is collected)
                 </span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
             <div>
               <label className="block mb-1 text-white text-xs">
@@ -96,7 +96,7 @@ const Launch = () => {
                   (max supply per wallet)
                 </span>
               </label>
-              <input className="w-[78%] bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
+              <input className="lg:w-[78%] w-full bg-[#202020] text-white px-3 py-[7px] rounded-md outline-none border border-[#383838]" />
             </div>
           </div>
         </div>
