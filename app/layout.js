@@ -10,7 +10,10 @@ const ibmPlexMono = IBM_Plex_Mono({
   variable: "--font-ibm-plex-mono", // optional CSS variable
   display: "swap",
 });
-
+export const metadata = {
+  title: " ethernet.dev",
+  description: " A decentralized launchpad protocol on Ethereum.",
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ibmPlexMono.className}>
