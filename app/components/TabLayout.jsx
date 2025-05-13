@@ -64,7 +64,7 @@ export default function TabLayout() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`text-sm cursor-pointer transition-colors font-[400] text-[13px] px-[19px] lg:text-[17px] lg:px-6 rounded-[12px]
+              className={`text-sm cursor-pointer transition-colors font-[400] text-[13px] px-[17px] lg:text-[17px] lg:px-6 rounded-[12px]
                 ${
                   activeTab === tab
                     ? "bg-[#100F0F] text-[#00FFB2] border border-[#383838] py-[9px] lg:w-[110px]"
